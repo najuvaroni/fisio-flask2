@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ Titulo }}</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="/static/style.css">
+     <link rel="stylesheet" href="/templates/Especializacao.html">
+    <link rel="stylesheet" href="/templates/Inicio.html">
+    <link rel="stylesheet" href="/templates/Contato.html">
+    <link rel="stylesheet" href="/templates/Dicas.html">
+    <link rel="stylesheet" href="/templates/Duvidas.html">
+</head>
+<body>
+<div class="container-fluid" style="padding: 0">
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+     <img src="/static/logo.png" alt="" class="logo">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="/espe">Especialização</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contato">Contatos</a>
+            </li>
+             <li class="nav-item">
+              <a class="nav-link" href="/">Início</a>
+            </li>
+             <li class="nav-item">
+              <a class="nav-link" href="/dicas">Dicas</a>
+            </li>
+             <li class="nav-item">
+              <a class="nav-link" href="/duvidas">Dúvidas</a>
+            </li>
+          </ul>
+      <span class="navbar-text">
+
+      </span>
+    </div>
+  </div>
+</nav>
+</div>
+ <div class="container fluid local" >
+        <div class="row p-5 localdois">
+            <div class="col-6" id="consultas">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d14869.512057305497!2d-50.33787230340106!3d-21.296074573465773!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1ssesi%20birigui!5e0!3m2!1spt-BR!2sbr!4v1695384244665!5m2!1spt-BR!2sbr"
+                    width="550" height="450" style="border:0; width: 100%;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <div class="col-6 formulario" id="form">
+                <h4 id="faleConosco"> <b style="font-size: 34px;"> AGENDA SEU HORÁRIO </b> </h4>
+                <div class="linha"></div>
+                <form action="">
+                    <br>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Informe seu nome</label>
+
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="Ex: Ana Maria">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Telefone para contato</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="Ex: (18) 01234-7655">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Sua mensagem</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1"
+                            placeholder="Informe aqui sua mensagem" rows="3"></textarea>
+                    </div>
+                </form>
+                <br>
+                <button type="button" class="btn btn-danger" style="border-radius: 50px;
+                    background-color: #87BF9A;
+                    border: #87BF9A;
+                    color: #fff;
+                    width:140px">
+                    <strong>ENVIAR</strong></button>
+            </div>
+        </div>
+    </div>
+<footer class="footer">
+        <div>
+            <figure><img src="/static/sesi.JPG" alt="" class="imgfooter"></figure>
+        </div>
+        <div>
+            <figure>
+                <img src="/static/senai.JPG" alt="" class="imgfooter">
+            </figure>
+        </div>
+        <div>
+            <p class="pfooter">Ana Júlia Lopes Varoni</p>
+        </div>
+    </footer>
+</body>
+</html>
